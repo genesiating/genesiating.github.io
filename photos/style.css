@@ -1,0 +1,229 @@
+* { margin:0; padding: 0; }
+
+body{
+  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  color: white;
+  background-color: #00212c;
+}
+
+section{
+    width: 800px;
+    margin: auto;
+
+}
+
+h1{
+  font-family: "Helvetica";
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+h2,h6{
+  font-family: "Helvetica";
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+h3{
+  font-weight:500;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 10px;
+  text-transform: lowercase;
+  letter-spacing: 2px;
+}
+
+h4{
+  font-weight:100;
+  font-size:15px;
+  margin-bottom: 10px;
+  font-style: italic;
+  text-transform: lowercase;
+}
+
+p{
+  font-size: 12px;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  line-height: 16px;
+}
+
+article{
+  width:520px;
+  float: left;
+  background-color: #363a3a;
+  padding: 15px;
+}
+
+aside{
+  width:250px;
+  float: left;
+  background-color: #414747;
+  clear:both;
+}
+
+nav{
+    background-color: #414747;
+    float:left;
+    width:240px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+header{
+  background-image:url("../header3.png");
+  width:800px;
+  height:200px;
+  clear:both;
+}
+
+.chance, .kehlani, .jai{
+  width:512px;
+  height:185px;
+  clear:both;
+  text-align: left;
+  padding:15px;
+  background-repeat: no-repeat;
+}
+
+.chance{
+  background-image:url("chance2.png");
+}
+
+.kehlani{
+  background-image:url("kehlani2.png");
+}
+
+.jai{
+  background-image:url("jai2.png");
+}
+
+
+
+.text{
+  margin-top: 100px;
+  padding:30px;
+  height:200px;
+    border: 2px solid #363a3a;
+}
+
+img{
+  width:250px;
+}
+
+nav ul{
+  margin-bottom: 20px;
+}
+
+nav ul li a{
+  display:block;
+
+  background-color: #515b5b;
+  color: white;
+
+  font-weight: light;
+  font-size: 20px;
+
+  line-height: 50px;
+  height: 50px;
+  text-align: center;
+
+  text-transform: lowercase;
+  text-decoration: none;
+  border: 1px solid #363a3a;
+}
+
+.gallery{
+
+  background-color: black;
+  float:left;
+  width:225px;
+  text-decoration: none;
+  padding: 5px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+
+display:block;
+
+background-color: #0d5860;
+color: white;
+font-size: 20px;
+
+line-height: 50px;
+height: 50px;
+text-align: center;
+border: 1px solid #363a3a;
+}
+
+aside p, aside h3, aside h2{
+  width:220px;
+  margin-left: 10px;
+}
+
+aside h3{
+  font-size: 15px;
+}
+
+.blog{
+  background-color: black;
+  float:left;
+  width:520px;
+  text-decoration: none;
+  margin-bottom: 20px;
+
+display:block;
+
+background-color: #0d5860;
+color: white;
+
+font-size: 20px;
+
+line-height: 50px;
+height: 50px;
+text-align: center;
+border: 1px solid #00212c;
+}
+
+nav ul li a:hover {
+  background: #0d5860;
+}
+
+ul li{
+  color:#00212c;
+}
+
+aside a, footer a, article a{
+  text-decoration: none;
+  color: #168d93;
+  text-transform: uppercase;
+}
+
+aside a:hover, footer a:hover, article a:hover{
+  color:white;
+}
+
+footer{
+  clear:both;
+  width:780px;
+  padding: 10px;
+  margin:auto;
+  background-color: #0d5860;
+  border-bottom: 2px solid #363a3a;
+  border-top: 2px solid #363a3a;
+  text-align: center;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+.container{
+  height:1250px;
+  width:800px;
+  margin:auto;
+  align-items: center;
+  background-color: #363a3a;
+}
